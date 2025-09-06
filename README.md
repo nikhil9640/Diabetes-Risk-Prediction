@@ -9,12 +9,14 @@ We use logistic regression as the baseline classification model to estimate the 
 # Dataset Overview
 The dataset, such as framingham.csv. It contains clinical and lifestyle records.
 Target variable: diabetes (0 = no diabetes, 1 = diabetes).
+
 **Features include:**
 Demographics (age, sex, education)
 Lifestyle (smoking status, cigarettes per day)
 Medical history (hypertension, blood pressure, cholesterol, BMI, glucose, etc.)
 
 **Methodology:**
+
 Step 1: Data Exploration
 Inspect dataset shape, columns, and missing values.
 Visualize diabetes distribution (imbalanced dataset).
